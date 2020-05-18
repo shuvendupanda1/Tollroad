@@ -3,8 +3,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
-
 public class TestLogin {
 	
 	@Test
@@ -17,5 +15,6 @@ public class TestLogin {
 		String title = driver.getTitle();
 		System.out.println(title);
 		Assert.assertEquals(title, "Google");
+		System.out.println("*****END TEST*****");
 	}
 }

@@ -17,5 +17,6 @@ public class TestLogin {
 		Assert.assertEquals(title, "Google");
 		System.out.println("*****END TEST*****");
 		System.out.println("&&&&&&&&&&&&&&&&&&&");
+		System.out.println("*******************");
 	}
 }

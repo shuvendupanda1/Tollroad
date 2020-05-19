@@ -16,9 +16,6 @@ public class TestLogin {
 		System.out.println(title);
 		Assert.assertEquals(title, "Google");
 		System.out.println("*****END TEST*****");
-		System.out.println("&&&&&&&&&&&&&&&&&&&");
-		System.out.println("*******************");
-		System.out.println("Hello Java");
 	}   
 }
 

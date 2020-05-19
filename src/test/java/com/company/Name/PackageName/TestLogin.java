@@ -7,6 +7,7 @@ public class TestLogin {
 	
 	@Test
 	public void test(){
+		
 		System.setProperty("webdriver.chrome.driver", ".\\driver\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
@@ -16,6 +17,7 @@ public class TestLogin {
 		System.out.println(title);
 		Assert.assertEquals(title, "Google");
 		System.out.println("*****END TEST*****");
+		System.out.println("*******************");
 	}   
 }
 

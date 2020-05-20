@@ -16,6 +16,7 @@ public class TestLogin {
 		String title = driver.getTitle();
 		System.out.println(title);
 		System.out.println("****END TEST****");
+		System.out.println("%%%%%%%%%%%%%%%%%");
 	}   
 }
 

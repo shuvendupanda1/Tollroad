@@ -18,6 +18,8 @@ public class TestLogin {
 		System.out.println("*****END TEST*****");
 		System.out.println("**********");
 		System.out.println("*****END*****");
+		Assert.assertEquals(title, "Google");
+		
 	}   
 }
 

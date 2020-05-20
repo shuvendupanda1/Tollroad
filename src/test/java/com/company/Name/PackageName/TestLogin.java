@@ -11,7 +11,7 @@ public class TestLogin {
 		System.setProperty("webdriver.chrome.driver", ".\\driver\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.manage().deleteAllCookies();
+		//driver.manage().deleteAllCookies();
 		driver.get("https://www.google.com/");
 		String title = driver.getTitle();
 		System.out.println(title);

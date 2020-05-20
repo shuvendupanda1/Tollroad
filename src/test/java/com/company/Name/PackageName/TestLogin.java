@@ -15,7 +15,6 @@ public class TestLogin {
 		driver.get("https://www.google.com/");
 		String title = driver.getTitle();
 		System.out.println(title);
-		Assert.assertEquals(title, "Google");
 		System.out.println("****END TEST****");
 	}   
 }

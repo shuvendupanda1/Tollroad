@@ -11,11 +11,6 @@ public class ProductDetailsPage {
 		System.setProperty("webdriver.chrome.driver", ".\\driver\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("www.google.com");
-<<<<<<< HEAD
-=======
 		System.out.println("HELLO JAVA TEST RUNNIMG");
-		
-		
->>>>>>> Loadthedetails
 	}
 }

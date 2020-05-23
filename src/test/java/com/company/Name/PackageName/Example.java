@@ -6,10 +6,5 @@ public class Example {
 	public static void main(String[] args) {
 		System.out.println("TEST JAVA");
 		System.out.println("TEST JAVA");
-		System.out.println("TEST JAVA");
-		System.out.println("TEST JAVA");
-		System.out.println("TEST JAVA");
-		System.out.println("TEST JAVA");
-		System.out.println("TEST JAVA");
 	}
 }

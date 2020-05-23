@@ -12,5 +12,6 @@ public class ProductDetailsPage {
 		WebDriver driver=new ChromeDriver();
 		driver.get("www.google.com");
 		System.out.println("HELLO JAVA TEST RUNNIMG");
+		System.out.println("BYE");
 	}
 }

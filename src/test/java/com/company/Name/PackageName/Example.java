@@ -8,12 +8,6 @@ public class Example {
 		System.out.println("HELLO");
 		System.out.println("HELLO");
 		System.out.println("HELLO");
-		System.out.println("**********END TEST **********");
-		System.out.println("HELLO");
-		System.out.println("HELLO");
-		System.out.println("HELLO");
-		System.out.println("HELLO");
-		System.out.println("HELLO");
 		
 	}
 

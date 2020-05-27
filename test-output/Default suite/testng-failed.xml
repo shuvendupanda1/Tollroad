@@ -6,6 +6,12 @@
       <class name="com.company.Name.PackageName.TestLogin">
         <methods>
           <include name="test"/>
+          <include name="beforeclass"/>
+          <include name="HomepageValidations"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+          <include name="aftermethods"/>
         </methods>
       </class> <!-- com.company.Name.PackageName.TestLogin -->
     </classes>

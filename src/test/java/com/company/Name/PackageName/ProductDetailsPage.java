@@ -5,7 +5,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class ProductDetailsPage {
 	
-	public static void main(String[] args) {
+	
+	
+	@org.testng.annotations.Test
+	public void run() {
 		
 		System.out.println("*****Product Details Page*****");
 		System.setProperty("webdriver.chrome.driver", ".\\driver\\chromedriver.exe");

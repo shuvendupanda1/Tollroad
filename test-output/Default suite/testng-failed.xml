@@ -3,17 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.company.Name.PackageName.TestLogin">
+      <class name="com.company.Name.PackageName.ParallelTestingP">
         <methods>
-          <include name="test"/>
-          <include name="beforeclass"/>
-          <include name="HomepageValidations"/>
+          <include name="testcase1"/>
+          <include name="testcase2"/>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="beforeMethod"/>
-          <include name="aftermethods"/>
         </methods>
-      </class> <!-- com.company.Name.PackageName.TestLogin -->
+      </class> <!-- com.company.Name.PackageName.ParallelTestingP -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

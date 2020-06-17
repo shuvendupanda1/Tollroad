@@ -12,7 +12,7 @@ public class TestBase {
 	private ThreadLocal<ChromeDriver> driver=new ThreadLocal<ChromeDriver>();
 	@BeforeMethod
 	public void setUp(){
-		System.setProperty("webdriver.chrome.driver", ".\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", ".\\driver\\chromedriver.exe");
 		driver.set(new ChromeDriver());
 		
 	}

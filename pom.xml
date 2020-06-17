@@ -47,6 +47,7 @@
 					<!-- -->
 					<!-- <suiteXmlFiles>${suiteXmlFile}</suiteXmlFiles> -->
 					<suiteXmlFiles>testng.xml</suiteXmlFiles>
+					<suiteXmlFiles>testngparallelTesting.xml</suiteXmlFiles>
 				</configuration>
 			</plugin>
 			<plugin>
